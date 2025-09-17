@@ -99,6 +99,8 @@ High level flow:
 2) Anywhere: Web asks Inspiration API for destinations → fetches offers per top route → same pipeline as above.
 3) Airports: Locations API with small TTL cache to keep type‑ahead snappy.
 
+<img width="3840" height="1643" alt="SysDes" src="https://github.com/user-attachments/assets/5c5f264d-87bf-429a-af92-789076fbce28" />
+
 ## Notes
 - CORS is enabled for local development.
 - Dates are optional; we pick tomorrow (and +5 days for round trip) if you don’t provide them. (Recently i added validation in frontend)
